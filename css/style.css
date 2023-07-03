@@ -1,0 +1,152 @@
+@font-face{
+    font-family: inter;
+    src: url(/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+    
+:root{
+    font-size: 62.5%;
+}
+        
+body {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-family: inter;
+    line-height: 19.36px;
+}
+
+
+
+.conteiner{
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+            /* HEADER START  */
+
+
+header{
+padding: 26px 12.5%;
+background-color: rgba(213, 144, 110, 0.52);
+border: 3px solid green;
+position: fixed;
+
+max-width: inherit;
+width: inherit;
+display: flex;
+align-items: center;
+
+justify-content: space-between;
+
+}
+
+
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 6rem;
+    font-size: 1.8rem;
+    line-height: 21.78px;
+}
+
+.header_ul .header_li .header_a {
+    display: block;
+    padding:9px;
+    font-size:18px;
+    transition:0.5s;
+  }
+  
+  .header_ul:hover .header_li .header_a{
+    filter:blur(1.5px);
+  }
+  
+  .header_ul .header_li .header_a:hover{
+    transform:scale(1.7);
+    opacity:1;
+    filter:blur(0);
+  }
+  
+.header_li_1{
+    color: #D5906E;
+}
+
+.signin_cart{
+    display: flex;
+    gap: 1.6rem;
+    align-items: center;
+}
+
+.fa-cart-shopping{
+font-size: 2.4rem;
+
+}
+
+
+                /* HEADER END  */
+
+
+
+
+
+
+                /* HERO START  */
+
+
+.Hero{
+background-image: url("../imgs/banner section.jpg");
+height: 720px;
+column-gap: 1.6rem;
+padding: 283px 30.4% ;
+display: flex;
+flex-direction: column;
+gap: 1.6rem;
+align-items: center;
+
+}
+
+.hero, h1{
+    font-size: 4.0rem;
+    line-height: 48.41px;
+    font-weight: 700;
+}
+.hero, p{
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.shopnow_btn{
+    background: none;
+    color: white;
+    
+    padding: 18.5px 116.5px ;
+    margin-top: 56px;
+
+    border:2px solid #D5906E;
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+
+                    /* HERO END */
+
+
+
+                    /* SECTION START  */
+
+.section1{
+    display: flex;
+    padding: 160px 25.5%;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+
+.section1 figure > figcaption{
+    color: #B53B1B;
+    font-size: 1.8rem;
+    line-height: 21.78px;
+    margin-top: 24px;
+}
