@@ -42,6 +42,16 @@ header {
   z-index: 999999999;
 }
 
+.fa-bars{
+  display: none;
+}
+
+.mobile_logo{
+  display: none;
+}
+
+
+
 ul {
   display: flex;
   justify-content: space-between;
@@ -140,6 +150,7 @@ h1 {
   border-radius: 10px;
 
   cursor: pointer;
+  margin-top: 72px;
 }
 
 .shopnow_btn:hover {
@@ -442,6 +453,9 @@ h1 {
   color: #402101;
   text-align: left;
 }
+
+
+
 
 .havequestion h5 {
   color: rgba(64, 33, 1, 1);

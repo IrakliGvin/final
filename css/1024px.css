@@ -2,6 +2,30 @@
 
 
 
+header{
+    padding: 9px 4.1%;
+}
+
+
+.header_ul{
+    display: none;
+}
+    
+.fa-bars{
+    display: block;
+    font-size: 3.2rem;
+
+}
+
+.desctop_logo{
+    display: none;
+}
+
+.mobile_logo{
+    display: flex;
+    flex-direction: column;
+}
+
 
     .Hero{
         background-image: url(..//imgs/mobile/hero1.png);
