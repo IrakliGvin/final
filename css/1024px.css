@@ -1,0 +1,316 @@
+@media (max-width: 1024px){
+
+
+
+
+    .Hero{
+        background-image: url(..//imgs/mobile/hero1.png);
+        padding: 132px 4.1% 37px 4.1%;
+        gap: 0.8rem;
+    }
+
+    .hero, h1{
+        font-size: 3.2rem;
+        line-height: 38.73px;
+    
+    }
+
+    .rotate span{
+        font-size: 3.2rem;
+        line-height: 38.73px;
+    }
+
+
+    .shopnowbutton_a{
+        margin-top: 22px;
+    }
+
+
+    .shopnow_btn{
+        padding: 14.5px 41px;
+    }
+
+    .main1 {
+        padding: 64px 11.8%;
+        flex-wrap: wrap;
+        column-gap: 106px;
+        row-gap: 40px;
+
+      }
+
+
+    main > figure> img{
+        height: 96px;
+    }
+
+    .main1 figure > figcaption {
+        font-size: 1.6rem;
+        line-height: 21.78px;
+        margin-top: 8px;
+        
+    }
+
+    .grid_h2{
+        font-size: 3.2rem;
+        line-height: 38.73px;
+        margin-bottom: 4px;
+    }
+
+    .gridconteiner{
+        padding: 32px 4.1%;
+
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    .gridconteiner > img{
+        height: 240px;
+    }
+
+
+    .gridimg3,.gridimg5{
+        display: none;
+    }
+
+
+    .section_3{
+        padding: 64px 11.8%;
+        height: 1019px;
+    }
+    
+    .section_3 h3{
+        font-size: 3.2rem;
+        line-height: 38.73px;
+        margin-bottom: 28px;
+    }
+
+    .fa-square-caret-left, .fa-square-caret-right{
+        display: none;
+    }
+
+    .idk{
+        flex-direction: column;
+        height: 760px;
+        gap: 20px;
+        
+
+    }
+
+    .product4, .Productsa4{
+        display: none;
+    }
+
+    .product_price{
+        padding-top: 232px;
+        
+    }
+
+    .Productsa{
+        width: 100%;
+        
+    }
+
+
+
+    .section3_mobile_button{
+        display: inline-block;
+        margin-top: 32px;
+        background-color: rgba(181, 59, 27, 1);
+        padding: 14.5px 31.5px;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        cursor: pointer;
+
+    }
+
+    .section3_mobile_button:hover{
+        background-color: rgb(219, 116, 90);
+    }
+
+
+    .subscribe_section{
+        padding: 44.5px 10.5%;
+    }
+
+    .subscribe_section h4{
+        font-size: 3.2rem;
+        line-height: 38.73px;
+        margin-bottom: 24px;
+    }
+
+    .Section4_form button{
+        padding: 13px 25.5px;
+    }
+
+    .homepage_article{
+        padding: 64px 4.1%;
+    }
+
+
+
+.homepage_article > h5{
+    font-size: 3.2rem;
+    line-height: 38.73px;
+
+
+}
+
+    
+.whatis_div_parrent{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.whatis_div{
+    width: 100%;
+}
+
+.havequestion h5{
+    margin-top: 26px;
+    margin-bottom: 13px;
+}
+
+.havequestion button{
+    width: 64%;
+}
+
+
+/* 2nd page  */
+
+.artworks_hero{
+    background-image: url(..//imgs/mobile/hero\ 2.png);
+    padding: 153px 8.95% 58px 8.95%;
+    height: 320px;
+}
+
+.artworks_hero >a{
+    display: inline block;
+    height: auto;
+
+}
+
+
+.shop_section{
+    padding: 64px 11.87%;
+}
+
+.product_search{
+    flex-direction: column;
+    gap: 25px;
+    padding: 0;
+}
+
+.product_search_div{
+border-radius: 10px;
+}
+
+.searchfor_searchbar{
+    border-radius: 10px;
+}
+
+.Allcategory_div{
+    padding: 40px 0px;
+}
+
+
+.Allcategory_div h5{
+    font-size: 3.2rem;
+    line-height: 38.73px;
+}
+
+
+
+.page2_gridconteiner{
+    display: flex;
+    flex-direction: column;
+}
+
+.card2, .card5, .card6, .card7, .card8{
+    display: none;
+}
+
+.pages{
+    padding: 48px 15% 0px 15%;
+    
+}
+
+.pages > span{
+    padding: 11px 10.71px 11.86px 11px;
+}
+
+.contact_hero{
+    background-image: url(..//imgs/mobile/hero\ 3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    padding: 128px 4.1% 32px 4.1%;
+}
+
+#submit{
+    width: 87%;
+}
+
+
+.page3_maindiv > h5{
+    font-size: 3.2rem;
+    line-height: 38.73px;
+
+}
+
+.wrapper{
+    padding: 64px 11.8%;
+}
+
+.page3_maindiv{
+    gap: 24px;
+}
+
+
+.page3_contactinfo{
+flex-direction: column;
+}
+
+.page3_contactinfo_subdiv{
+    padding: 0px 0px 24px 30px;
+}
+
+iframe{
+    width: 100%;
+}
+
+
+
+/* footer start  */
+
+footer{
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 25.6% 42px 25.6%;
+}
+
+.help_section{
+text-align: center;
+}
+
+.Social_div{
+    margin-top: 32px;
+    margin-bottom: 40.38px;
+}
+
+.contactinfo {
+margin-top: 64px;
+align-items: center;
+}
+
+
+
+
+}
+
+
+
