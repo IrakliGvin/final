@@ -301,10 +301,10 @@ h1 {
 
 .idk {
   display: flex;
+  justify-content: space-between;
   height: 260px;
   align-items: center;
   width: 100%;
-  gap: 4.2%;
 }
 
 .product_price {
@@ -381,6 +381,7 @@ h1 {
   width: 100%;
   border: 1px solid #ffffff;
   border-radius: 10px;
+
 }
 
 .Section4_form input {
@@ -454,7 +455,9 @@ h1 {
   text-align: left;
 }
 
-
+.havequestion{
+  width: 100%;
+}
 
 
 .havequestion h5 {
@@ -466,27 +469,23 @@ h1 {
   margin-bottom: 20px;
 }
 
-.havequestion button {
+.havequestion_button {
   background-color: rgba(181, 59, 27, 1);
   border: none;
   border-radius: 10px;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 2.4rem;
   line-height: 29.05px;
   color: #ffffff;
-  width: 16%;
+  padding: 14px 52px;
+  cursor: pointer;
 }
 
 .havequestion button:hover {
   background-color: rgb(219, 116, 90);
 }
 
-.havequestion button a {
-  display: block;
-  padding: 13.5px 2.7%;
-  text-decoration: none;
-  color: #ffffff;
-}
+
 
 /* ARTICLE END  */
 

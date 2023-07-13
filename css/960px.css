@@ -1,4 +1,4 @@
-@media (max-width: 1024px){
+@media (max-width: 960px){
 
 
 
@@ -198,9 +198,7 @@ header{
     margin-bottom: 13px;
 }
 
-.havequestion button{
-    width: 64%;
-}
+
 
 
 /* 2nd page  */

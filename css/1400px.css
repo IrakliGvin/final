@@ -1,0 +1,98 @@
+@media (max-width: 1400px){
+
+    header{
+        padding: 26px 7.81%;
+
+    }
+
+
+    ul{
+        gap: 3.75rem;;
+    }
+
+
+    .Hero{
+        padding: 176.8px 19%;
+    }
+
+    .shopnow_btn{
+        margin-top: 45px;
+    }
+
+    .main1{
+        padding: 160px 15.93%;
+    }
+
+
+    .gridconteiner{
+        padding: 60px 11.87%;
+        gap: 37.5px;
+        grid-template-rows: 30px 201.25px 162.5px;
+    }
+
+    .section_3{
+        padding: 100px 5.59%;
+    }
+
+    .subscribe_section{
+        padding: 100px 28.31%;
+
+    }
+
+    .subscribe_section h4{
+        margin-bottom: 46px;
+    }
+
+    .homepage_article{
+        padding: 100px 7.8%;
+    }
+
+
+    .havequestion h5{
+        margin-top: 70px;
+    }
+
+
+    footer{
+        padding: 20px 11.8% 35.2px 11.8%;
+    }
+
+
+
+    .artworks_hero{
+        padding: 150px 23% 90px 23%;
+    }
+
+
+    .shop_section {
+        padding: 100px 7.8%;
+      }
+
+
+      .Allcategory_div {
+        padding: 38px 0px 58.7px 0px;
+      }
+
+
+      .page2_gridconteiner {
+
+        gap: 2.5%;
+        row-gap: 37.5px;
+      }
+
+      .pages{
+        padding: 75px 21.5% 0px 21.5%;
+
+      }
+
+
+      .contact_hero{
+        padding: 130px 50.3% 70px 7.8%;
+
+      }
+
+      .wrapper {
+        padding: 100px 11.8%;
+      }
+
+}
